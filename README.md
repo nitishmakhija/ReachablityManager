@@ -8,8 +8,11 @@ Just drop the files in your Xcode project.
 
 Usage
 
-#import "ReachablityManager" in AppDelegate 
+In `'AppDelegate.m'`
 
-then simply use '[ReachablityManager sharedManager];' in your '- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;' method.
+`#import "ReachablityManager"`
 
-and then use [ReachablityManager isInternetAvailable]; which returns a boolean for device reachablity status for the host address provided.
+
+then simply use `[ReachablityManager sharedManager];` in your `- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;` method.
+
+and then use `[ReachablityManager isInternetAvailable];` which returns a boolean for device reachablity status for the host address provided.
