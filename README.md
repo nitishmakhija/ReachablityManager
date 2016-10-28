@@ -6,7 +6,7 @@ Installation
 
 Just drop the files in your Xcode project.
 
-Usage
+# Usage
 
 In `'AppDelegate.m'`
 
